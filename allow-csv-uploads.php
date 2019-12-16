@@ -12,7 +12,8 @@ add_filter( 'wp_check_filetype_and_ext', function( $values, $file, $filename, $m
 		$finfo     = finfo_open( FILEINFO_MIME_TYPE );
 		$real_mime = finfo_file( $finfo, $file );
 		finfo_close( $finfo );
-		if ( 'text/plain' === $real_mime && preg_match( '/\.(csv)$/i', $filename ) ) {
+
+		if ( in_array( $real_mime, [ 'text/plain', 'text/html' ], true ) && preg_match( '/\.(csv)$/i', $filename ) ) {
 			$values['ext']  = 'csv';
 			$values['type'] = 'text/csv';
 		}
@@ -23,5 +24,6 @@ add_filter( 'wp_check_filetype_and_ext', function( $values, $file, $filename, $m
 			$values['type'] = 'text/csv';
 		}
 	}
+
 	return $values;
 }, PHP_INT_MAX, 4 );
