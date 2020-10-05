@@ -38,6 +38,7 @@ $files_to_load = [
 	'errors-report.php',
 	'footer-queries.php',
 	'https-ssl-verify.php',
+	'jetpack-offline.php',
 	'override-attachment-import.php',
 	'yoast-development.php',
 ];
