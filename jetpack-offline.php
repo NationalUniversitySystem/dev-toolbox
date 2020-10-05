@@ -5,7 +5,7 @@
  * Version: 1.0
  * Author: Mike Estrada
  *
- * @package development-toolbox
+ * @package dev-toolbox
  *
  * Notes:
  * - Mainly utilized for enabling modules and testing them.

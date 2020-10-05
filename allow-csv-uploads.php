@@ -2,7 +2,7 @@
 /**
  * Restore CSV upload functionality for WordPress 4.9.9 and up
  *
- * @package development-toolbox
+ * @package dev-toolbox
  */
 
 add_filter( 'wp_check_filetype_and_ext', function( $values, $file, $filename, $mimes ) {

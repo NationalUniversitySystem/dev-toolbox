@@ -5,7 +5,7 @@
  * Version: 1.0
  * Author: Mike Estrada
  *
- * @package development-toolbox
+ * @package dev-toolbox
  */
 
 if ( isset( $_GET['fqueries'] ) ) {

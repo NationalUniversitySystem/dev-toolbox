@@ -7,7 +7,7 @@
  * Dependencies:
  * - WP_DEBUG constant defined as `true`, preferrably in wp-config.php file
  *
- * @package development-toolbox
+ * @package dev-toolbox
  */
 
 if ( ! function_exists( 'write_to_log' ) ) {

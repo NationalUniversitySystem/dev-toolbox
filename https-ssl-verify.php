@@ -2,7 +2,7 @@
 /**
  * Quick plugin to kill ssl verification for work on local environment
  *
- * @package development-toolbox
+ * @package dev-toolbox
  */
 
 add_filter( 'http_request_args', function( $r, $url ) {

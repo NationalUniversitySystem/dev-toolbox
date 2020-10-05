@@ -1,13 +1,13 @@
 <?php
 /**
  * Plugin Name: Development Toolbox
- * Plugin URI: https://github.com/NationalUniversitySystem/development-toolbox
+ * Plugin URI: https://github.com/NationalUniversitySystem/dev-toolbox
  * Description: Code and plugins used for site development. Should not be committed to repo and folder should be in .gitignore file.
  * Author: Mike Estrada
  * Version: 1.0.0
  * Requires PHP: 5.4
  *
- * @package development-toolbox
+ * @package dev-toolbox
  */
 
 // Require v5.4 of PHP.
