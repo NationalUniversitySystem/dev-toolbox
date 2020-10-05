@@ -39,6 +39,7 @@ $files_to_load = [
 	'footer-queries.php',
 	'https-ssl-verify.php',
 	'override-attachment-import.php',
+	'yoast-development.php',
 ];
 
 foreach ( $files_to_load as $file_name ) {
