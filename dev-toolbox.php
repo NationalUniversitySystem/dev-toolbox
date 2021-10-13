@@ -40,6 +40,7 @@ $files_to_load = [
 	'https-ssl-verify.php',
 	'jetpack-offline.php',
 	'override-attachment-import.php',
+	'wp-browsersync-refresh.php',
 	'yoast-development.php',
 ];
 
